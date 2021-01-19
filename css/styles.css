@@ -1,0 +1,108 @@
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--white);
+  background-image: url("../images/bg-pattern-top-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 70vh;
+  overflow: hidden;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding: 5%;
+}
+
+.left {
+  width: 27vw;
+}
+
+.left-title {
+  font-size: 3.8rem;
+  font-family: 'Spartan', sans-serif;
+  color: var(--very-dark-magenta);
+}
+
+.left-subtitle {
+  font-size: 1.1rem;
+  font-family: 'Spartan', sans-serif;
+  color: var(--dark-grayish-magenta);
+}
+
+.right {
+  width: 450px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-card {
+  padding-top: 15px;
+  border-radius: 10px;
+  width: 400px;
+  background-color: #f7f2f7;
+  height: 50px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.right-card-text {
+  margin-left: 70px;
+}
+
+.right-card:nth-child(2) {
+  margin-left: 50px;
+}
+
+.right-card:nth-child(3) {
+  margin-left: 100px;
+}
+
+.right-card img {
+  width: 15px;
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+      -ms-flex-direction: inherit;
+          flex-direction: inherit;
+}
+
+/*.bottom{
+    display: flex;
+
+    &-card{
+        justify-content: end;
+    }
+}*/
+/*# sourceMappingURL=styles.css.map */
